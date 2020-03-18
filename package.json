@@ -1,7 +1,7 @@
 {
-  "name": "element-theme-chalk",
+  "name": "element-ui-theme-chalk-mhc",
   "version": "2.13.0",
-  "description": "Element component chalk theme.",
+  "description": "An Element component theme based on the official chalk theme.",
   "main": "lib/index.css",
   "style": "lib/index.css",
   "files": [
@@ -13,18 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElementUI/theme-chalk.git"
+    "url": "git+https://github.com/ettingshausen/theme-chalk.git"
   },
   "keywords": [
     "element",
     "theme"
   ],
-  "author": "yi.shyang@ele.me",
+  "author": "ettingshausen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ElementUI/theme-chalk/issues"
+    "url": "https://github.com/ettingshausen/theme-chalk/issues"
   },
-  "homepage": "https://github.com/ElementUI/theme-chalk#readme",
+  "homepage": "https://github.com/ettingshausen/theme-chalk#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-cssmin": "^0.2.0",
