@@ -32,6 +32,7 @@
 
   @include e(header) {
     padding: $--dialog-padding-primary;
+    background: $--color-primary;
     padding-bottom: 10px;
   }
 
@@ -60,11 +61,11 @@
   @include e(title) {
     line-height: $--dialog-font-line-height;
     font-size: $--dialog-title-font-size;
-    color: $--color-text-primary;
+    color: $--color-white;
   }
 
   @include e(body) {
-    padding: ($--dialog-padding-primary + 10px) $--dialog-padding-primary;
+    padding: ($--dialog-padding-primary + 10px) ($--dialog-padding-primary + 20px);
     color: $--color-text-regular;
     font-size: $--dialog-content-font-size;
     word-break: break-all;

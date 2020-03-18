@@ -16,7 +16,7 @@ $--color-transition-base: color .2s cubic-bezier(.645,.045,.355,1) !default;
 /* Color
 -------------------------- */
 /// color|1|Brand Color|0
-$--color-primary: #409EFF !default;
+$--color-primary: rgba(2, 120, 254, 1) !default;
 /// color|1|Background Color|4
 $--color-white: #FFFFFF !default;
 /// color|1|Background Color|4
@@ -37,7 +37,7 @@ $--color-warning: #E6A23C !default;
 /// color|1|Functional Color|1
 $--color-danger: #F56C6C !default;
 /// color|1|Functional Color|1
-$--color-info: #909399 !default;
+$--color-info: rgba(255, 255, 255, 1) !default;
 
 $--color-success-light: mix($--color-white, $--color-success, 80%) !default;
 $--color-warning-light: mix($--color-white, $--color-warning, 80%) !default;
@@ -81,7 +81,7 @@ $--border-style-base: solid !default;
 $--border-color-hover: $--color-text-placeholder !default;
 $--border-base: $--border-width-base $--border-style-base $--border-color-base !default;
 /// borderRadius|1|Radius|0
-$--border-radius-base: 4px !default;
+$--border-radius-base: 2px !default;
 /// borderRadius|1|Radius|0
 $--border-radius-small: 2px !default;
 /// borderRadius|1|Radius|0
@@ -623,7 +623,7 @@ $--dialog-content-font-size: 14px !default;
 /// fontLineHeight||LineHeight|2
 $--dialog-font-line-height: $--font-line-height-primary !default;
 /// padding||Spacing|3
-$--dialog-padding-primary: 20px !default;
+$--dialog-padding-primary: 10px !default;
 
 /* Table
 -------------------------- */
@@ -850,9 +850,9 @@ $--carousel-indicator-out-color: $--border-color-hover !default;
 /// color||Color|0
 $--collapse-border-color: $--border-color-lighter !default;
 /// height||Other|4
-$--collapse-header-height: 48px !default;
+$--collapse-header-height: 26px !default;
 /// color||Color|0
-$--collapse-header-background-color: $--color-white !default;
+$--collapse-header-background-color: rgba(246, 247, 249, 1) !default;
 /// color||Color|0
 $--collapse-header-font-color: $--color-text-primary !default;
 /// fontSize||Font|1

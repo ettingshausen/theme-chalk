@@ -31,15 +31,15 @@
 }
 
 @mixin button-variant($color, $background-color, $border-color) {
-  color: $color;
-  background-color: $background-color;
-  border-color: $border-color;
+  color: $color!important;
+  background-color: $background-color!important;
+  border-color: $border-color!important;
 
   &:hover,
   &:focus {
-    background: mix($--color-white, $background-color, $--button-hover-tint-percent);
-    border-color: mix($--color-white, $border-color, $--button-hover-tint-percent);
-    color: $color;
+    background: mix($--color-white, $background-color, $--button-hover-tint-percent)!important;
+    border-color: mix($--color-white, $border-color, $--button-hover-tint-percent)!important;
+    color: $color!important;
   }
   
   &:active {
