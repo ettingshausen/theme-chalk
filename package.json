@@ -1,6 +1,6 @@
 {
   "name": "element-ui-theme-chalk-mhc",
-  "version": "2.13.0",
+  "version": "2.13.1",
   "description": "An Element component theme based on the official chalk theme.",
   "main": "lib/index.css",
   "style": "lib/index.css",
